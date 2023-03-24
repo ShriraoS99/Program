@@ -1,0 +1,23 @@
+4. Create a class that accepts two numbers. Create another class that fetches the last digit of those two numbers. Create a third class that multiplayer that last two digits.
+Example: Class A: Accept two numbers.
+		    Class B: Fetches the last digits of the numbers
+		    Class C: Multiplay the last two digits.
+			
+			
+			
+			import java.util.Scanner;
+			public class Exercise {
+			public class static void main(String[] args) {
+			Scanner in = new Scanner (System.in);
+			
+			System.out.print("Input first number; ):
+			Scanner in = new Scanner (System.in);
+			int num1 = in.nextInt();
+			
+			System.out .print("Input second number: ");
+			int num2 = in.nextInt();
+			
+			System.out.println(num1 = "X" + num2 + " = " + num1 * num2):
+			
+			}
+			}

@@ -1,0 +1,25 @@
+5. Write a program that accepts an email string and validates that email. If email is valid must display success message and If email is not valid must display error message
+Example:  Input - test01*gmail.com
+	     Output - Invalid Email Id
+	     Input - student01@gmail.com
+	     Output - Valid Email Id
+		 
+		 import java.util.regex.*;
+		 import java.util.*;
+		 public class EmailValidation1{
+		 public static void main(String args[]){
+		 ArrayList<String>emails=new ArrayList<String>();
+         emails.add("java@domain.co.in");
+         emails.add("java@domain.com");
+		 emails.add("java#@domain.co.in");
+		 
+		 emails.add("@yahoo.com");
+		 emails.add("java#domain.com");
+		 String regex = "^(.+)@(.+)$";
+		 Pattern pattern = Pattern.compile(regex);
+		 for(String email : emails){
+		 Matcher matcher = pattern.matcher(email);
+		 System.out.println(email +" : "+ matcher.match)
+		 }
+		 }
+		 }
